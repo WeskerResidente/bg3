@@ -8,6 +8,10 @@
     color: #ddc9a7;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     max-width: 100%;
     margin: 0;
@@ -53,6 +57,7 @@ a {
     justify-content: space-around;
     height: 5rem;
     position: fixed;
+    z-index: 5;
     width: 100%;
     background-image: url(../img/cloud-header.png);
 
@@ -280,4 +285,24 @@ a {
 }
 .up-3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/news-3.jpg);
+}
+.gallery {
+    text-align: right;
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+.fanart {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+
+}
+.fanart img {
+    width: 22%;
+    padding: 0.5rem;
+
+    object-fit: cover;
 }
