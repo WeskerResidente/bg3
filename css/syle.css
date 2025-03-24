@@ -239,14 +239,18 @@ a {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
 }
+
 .update-block {
     display: flex;
-    justify-content: center;
+
 
 }
-
+.update-sect {
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
 .update {
-    width: 22%;
+    width: 25%;
     padding: 1rem;
     border: #ddc9a7 1px solid;
     border-radius: 12px;
