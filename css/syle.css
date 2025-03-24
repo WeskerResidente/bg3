@@ -23,6 +23,9 @@ h2 {
         color: #ddc9a7;
         font-variant: small-caps;
 }
+p {
+    font-family: "paragraph";
+}
 li {
     list-style: none;
 }
@@ -137,5 +140,52 @@ a {
 .bg3-award {
     margin-left: 5rem;
 }
+.all-race {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    border: #ddc9a7 1px solid;
 
+}
+.all-race img {
+    width: 33%;
+}
+.races {
+    width: 33%;
+    text-align: center;
+    color: white;
+}
+.elf-race {
+    color: white;
+}
+.race {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12rem;
+    margin-top: 5rem;
 
+}
+.column-race {
+    display: flex;
+
+}
+.elf-race {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: #ddc9a7 1px solid;
+    padding-top: 1rem;
+
+}
+.elf-race img {
+    width: 20%;
+}
+.elf-race p {
+    text-align: center;
+    color: #ddc9a7;
+    margin: 0   2rem 2rem 2rem;
+}
