@@ -1,4 +1,87 @@
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: "paragraph";
+    src: url(../fonts/Gothic_A1/GothicA1-Medium.ttf);
+}
+@font-face {
+    font-family: "titre";
+    src: url(../fonts/MedievalSharp/MedievalSharp-Regular.ttf);
+    color: #ddc9a7;
+}
+
+body {
+    max-width: 100%;
+    margin: 0;
+}
+h1 {
+    font-family: "titre";
+    color: #ddc9a7;
+    font-variant: small-caps;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.header-txt {
+    display: flex;
+    flex-direction: column;
+}
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    position: fixed;
+    width: 100%;
+
+}
+.header-top img {
+    width: 50%;
+}
+
+.header-top ul {
+    display: flex;
+    justify-content: space-around;
+    height: 1.5rem;
+    margin-bottom: 0px;
+    font-size: small;
+
+}
+.header-top ul li {
+    padding-right: 2rem;
+}
+.header-top ul li a {
+    font-family: "titre";
+    color: #ddc9a7;
+
+}
+.cta-header {
+    font-family: "titre";
+    color: black;
+    background-color: #ddc9a7;
+    text-align: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: -0.5rem;
+    border-radius: 5%;
+
+}
+.header-bot {
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+}
+.cta-primary {
+    color: white;
+    border: #ddc9a7 solid 1px;
+    background-color: #573d257c;
+    font-family: "titre";
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    border-radius: 5%;
 }
