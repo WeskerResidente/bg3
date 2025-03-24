@@ -25,9 +25,11 @@ h2 {
 }
 p {
     font-family: "paragraph";
+    color: white;
 }
 li {
     list-style: none;
+    font-size: large;
 }
 a {
     text-decoration: none;
@@ -65,6 +67,7 @@ a {
     height: 1.5rem;
     margin-bottom: 0px;
     font-size: small;
+    margin-top: 1rem;
 
 }
 .header-top ul li {
@@ -147,6 +150,8 @@ a {
     justify-content: center;
     padding: 2rem;
     border: #ddc9a7 1px solid;
+    border-radius: 5%;
+    margin-right: 1rem;
 
 }
 .all-race img {
@@ -173,12 +178,13 @@ a {
 }
 .elf-race {
     display: flex;
-    width: 40%;
+    width: 50%;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     border: #ddc9a7 1px solid;
     padding-top: 1rem;
+    border-radius: 5%;
 
 }
 .elf-race img {
@@ -188,4 +194,48 @@ a {
     text-align: center;
     color: #ddc9a7;
     margin: 0   2rem 2rem 2rem;
+}
+.buy-now {
+    display: flex;
+    margin-top: 5rem;
+    background-image: url(../img/buy-now-background.jpg);
+    justify-content: center;
+    padding-top: 5rem;
+    background-size: cover;
+    align-items: center;
+}
+.img-bn{
+    width: 33%;
+}
+.buy-now div img {
+    width: 35vw;
+}
+.txt-bn {
+    width: 40%;
+}
+.txt-bn ul {
+    display: flex;
+    padding-left: 0;
+
+}
+.txt-bn p {
+    margin-bottom: 0;
+    font-size: small;
+}
+.txt-bn h2 {
+    margin-top: 0;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+.txt-bn ul li a{
+    border: #ddc9a7 1px solid;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8%;
+    background-color: rgba(7, 7, 37, 0.733);
+    font-family: "titre";
+}
+.txt-bn ul :nth-child(2) {  
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
 }
