@@ -13,10 +13,11 @@
 }
 
 body {
-    max-width: 100%;
     margin: 0;
     background-image: url(../img/smoke-bg.jpg);
+
 }
+
 h1 {
     font-family: "titre";
     color: #ddc9a7;
@@ -40,13 +41,15 @@ a {
 }
 .div-video {
     height: 100vh;
-    width:100%;
+    max-width: 100%;
+    object-position:center;
 }
-.video {
-    position: absolute;
-    z-index: -1;
+.div-video video {
+    /* position: absolute; */
+    /* z-index: -2; */
     height: 100%;
-    background-size: cover;    
+    width: 100%;
+    object-fit:cover;
 }
 .header-txt {
     display: flex;
@@ -55,15 +58,16 @@ a {
 .header-top {
     display: flex;
     justify-content: space-around;
-    height: 5rem;
     position: fixed;
+    left: 0; right: 0;
     z-index: 5;
-    width: 100%;
     background-image: url(../img/cloud-header.png);
+    background-size:contain;
+
 
 }
 .header-top img {
-    width: 50%;
+    width: 30%;
 }
 
 .header-top ul {
@@ -292,15 +296,16 @@ a {
 }
 .gallery {
     text-align: right;
-    margin-top: 5rem;
-    margin-right: 2rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 .fanart {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    justify-content: center;
 }
 .fanart img {
     width: 22%;
@@ -312,7 +317,45 @@ a {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 5rem;
+    
+}
+.cta-bg {
+    background-image: url(../img/cta-bg.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    border: #ddc9a7 1px solid;
+    padding: 3rem 1rem 0 4rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+
+}
+.cta-bg p {
+    font-size: small;
+    width: 30%;
+    margin-bottom: 2rem;
+
+    
+}
+.cta-bg h2 {
+    font-size: x-larger;
+    margin-bottom: 3rem;
+}
+
+.get-it {
+    border: #ddc9a7 1px solid;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8%;
+    background-color: rgba(7, 7, 37, 0.733);
+    font-family: "titre";
+    font-size: x-large;
+
+
 }
 
 @media screen and (max-width: 768px) {
