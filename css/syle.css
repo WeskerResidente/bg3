@@ -463,4 +463,75 @@ a {
         margin-left: 0;
         margin-right: 2rem;
     }
+    .race {
+        margin-left: 0;
+    }
+    .column-race {
+        flex-direction: column;
+    }
+    .all-race {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        overflow-x: scroll;
+        margin-left: 1rem;
+        flex-wrap:wrap;
+        margin-left: 0;
+        height: 20vh;
+        margin-bottom: 1rem;
+    }
+    .races img {
+
+    }
+    .elf-race {
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .buy-now {
+        flex-direction: column-reverse;
+        height: 100vh;
+        padding-top: 0;
+    }
+    .txt-bn ul{
+
+        margin-bottom: 1rem;
+        flex-wrap: wrap; 
+        margin-top: 0;
+        width: 100%;
+        margin-top: 29px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .txt-bn {
+        width: 83%;
+        text-align: center;
+        height: 70vh;
+
+        
+    }
+    .txt-bn ul li {
+        margin-bottom: 2rem;
+    }
+    .img-bn{
+        width: 100%;
+        
+    }
+    .buy-now div img {
+        width: 81%;
+        margin-left: 3rem;
+    }
+    .update-block {
+        flex-direction: column;
+    }
+    .update {
+        width: 100%;
+
+    }
+    .up-2{
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
 }
