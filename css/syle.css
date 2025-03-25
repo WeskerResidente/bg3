@@ -317,7 +317,7 @@ a {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 5rem;
+    padding: 0 3rem;
     
 }
 .cta-bg {
@@ -326,18 +326,20 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     width: 80%;
-    height: 40vh;
     margin: auto;
     border: #ddc9a7 1px solid;
     padding: 3rem 1rem 0 4rem;
     border-radius: 5px;
     margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 50vh;
 
 }
 .cta-bg p {
     font-size: small;
     width: 30%;
     margin-bottom: 2rem;
+    margin-top: 0;
 
     
 }
@@ -355,7 +357,44 @@ a {
     font-family: "titre";
     font-size: x-large;
 
+}
+.footer{
+    display: flex;
+    border-top: #ddc9a7 solid 1px;
+    border-bottom: #ddc9a7 solid 1px;
+}
+.encart {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: wheat;
+}
+.encart ul {
+    padding-left: 0;
 
+}
+.encart ul li {
+    font-size: medium;
+    margin-bottom: 1rem;
+    
+}
+.encart ul li a {
+    list-style: none;
+    color: #ddc9a7;
+}
+.encart-1 {
+    width: 100%;
+    padding-right: 5rem;
+}
+.end-footer ul {
+    display: flex;
+
+    
+}
+.end-footer ul li a{
+    list-style: none;
+    color: white;
+    margin-right: 3rem;
 }
 
 @media screen and (max-width: 768px) {
